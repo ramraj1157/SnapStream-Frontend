@@ -206,3 +206,19 @@ import {
     }
   };
   
+
+  export const getCurrentUser = async (userId: string): Promise<any> => {
+    try {
+      const response = await axios.get(`${API_BASE_URL}/api/users/${userId}/me`);
+  
+      return response.data; 
+    } catch (error: any) {
+      console.error("Error fetching profile:", error);
+      toast.error("Failed to fetch profile. Please try again.");
+  
+      return {
+        success: false,
+        message: error.response?.data?.message || "An error occurred while fetching the profile.",
+      };
+    }
+  };

@@ -1,9 +1,10 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Dialog, DialogTrigger, DialogContent } from "@/components/ui/dialog";
 import { Input } from "@/components/ui/input";
 import { Button } from "@/components/ui/button";
 import { UpdatePostApi } from "../api/post.api";
 import { toast } from "sonner";
+import { useNavigate } from "react-router-dom";
 
 export function EditPost({ post, userId, updatePost }: any) {
   const [formData, setFormData] = useState({
@@ -51,6 +52,19 @@ export function EditPost({ post, userId, updatePost }: any) {
       toast.error("Failed to update post.");
       console.error("Update Error:", error);
     }
+
+    const navigate = useNavigate();
+    const [redirect, setRedirect] = useState(false);
+  useEffect(() => {
+    const user = localStorage.getItem('user');
+    if (user == null) {
+      setRedirect(true);
+    }
+  }, []);
+
+  if (redirect) {
+    navigate("/");
+  }
   };
 
   return (

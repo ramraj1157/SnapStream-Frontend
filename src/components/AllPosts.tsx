@@ -13,6 +13,7 @@ import {
   DeletePostApi,
 } from "../api/post.api";
 import { toast } from "sonner";
+import { useNavigate } from "react-router-dom";
 
 export function AllPosts() {
   const [posts, setPosts] = useState<any[]>([]);
@@ -90,6 +91,19 @@ export function AllPosts() {
       console.error("Error adding comment:", error);
       toast.error("Failed to add comment.");
     }
+
+    const navigate = useNavigate();
+    const [redirect, setRedirect] = useState(false);
+  useEffect(() => {
+    const user = localStorage.getItem('user');
+    if (user == null) {
+      setRedirect(true);
+    }
+  }, []);
+
+  if (redirect) {
+    navigate("/");
+  }
   };
 
   return (

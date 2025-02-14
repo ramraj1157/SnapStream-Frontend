@@ -51,7 +51,7 @@ export function UserProfile() {
         return;
       }
 
-      console.log("new user", newUser.user)
+
 
       // Update local state and storage
       localStorage.setItem("user", JSON.stringify(newUser.user));

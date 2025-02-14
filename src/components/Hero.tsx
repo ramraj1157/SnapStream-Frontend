@@ -34,7 +34,17 @@ const Hero = () => {
       {/* Features Section */}
       <div className="mt-12 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-8 text-left max-w-4xl">
         {[
+          
           {
+            title: "Sign Up and Verify Email",
+            description:
+              "Account security is our first policy"
+          },
+          {
+            title: "Access All features",
+            description:
+              "You can access all features , Thankyou for choosing us"
+          },{
             title: "Community Building",
             description:
               "Join a vibrant community of like-minded individuals and grow together."
@@ -44,16 +54,6 @@ const Hero = () => {
             description:
               "Connect with professionals and expand your network in various fields."
           },
-          {
-            title: "Collaborative Projects",
-            description:
-              "Work together on projects and achieve great things as a team."
-          },
-          {
-            title: "Resource Sharing",
-            description:
-              "Share and access valuable resources to enhance your skills and knowledge."
-          }
         ].map((feature, index) => (
           <Card
             key={index}

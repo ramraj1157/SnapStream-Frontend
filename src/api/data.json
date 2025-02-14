@@ -1,0 +1,244 @@
+{
+    "posts": [
+      {
+        "name": "John Doe",
+        "imgUrl": "https://picsum.photos/id/237/500/300",
+        "hashTags": ["#nature", "#photography", "#sunset"],
+        "likes": 120,
+        "comments": [
+          {
+            "user": "JaneSmith",
+            "comment": "This is amazing! 😍"
+          },
+          {
+            "user": "TravelLover",
+            "comment": "Where was this taken?"
+          }
+        ]
+      },
+      {
+        "name": "Alice Johnson",
+        "imgUrl": "https://picsum.photos/id/102/500/300",
+        "hashTags": ["#foodie", "#instafood", "#yum"],
+        "likes": 85,
+        "comments": [
+          {
+            "user": "FoodieFan",
+            "comment": "That looks delicious!"
+          },
+          {
+            "user": "ChefCarlos",
+            "comment": "Great presentation!"
+          }
+        ]
+      },
+      {
+        "name": "Mike Brown",
+        "imgUrl": "https://picsum.photos/id/1062/500/300",
+        "hashTags": ["#fitness", "#gymlife", "#workout"],
+        "likes": 200,
+        "comments": [
+          {
+            "user": "FitFreak",
+            "comment": "Killing it, Mike! 💪"
+          },
+          {
+            "user": "GymBuddy",
+            "comment": "What's your routine?"
+          }
+        ]
+      },
+      {
+        "name": "Emily Davis",
+        "imgUrl": "https://picsum.photos/id/100/500/300",
+        "hashTags": ["#art", "#creative", "#design"],
+        "likes": 150,
+        "comments": [
+          {
+            "user": "ArtLover",
+            "comment": "Wow, this is stunning!"
+          },
+          {
+            "user": "DesignerPro",
+            "comment": "Love the creativity!"
+          }
+        ]
+      },
+      {
+        "name": "Chris Evans",
+        "imgUrl": "https://picsum.photos/id/1000/500/300",
+        "hashTags": ["#mountains", "#adventure", "#hiking"],
+        "likes": 300,
+        "comments": [
+          {
+            "user": "AdventureSeeker",
+            "comment": "I need to go there!"
+          },
+          {
+            "user": "NatureFan",
+            "comment": "Breathtaking view!"
+          }
+        ]
+      },
+      {
+        "name": "Sophia Martinez",
+        "imgUrl": "https://picsum.photos/id/101/500/300",
+        "hashTags": ["#fashion", "#style", "#ootd"],
+        "likes": 250,
+        "comments": [
+          {
+            "user": "Fashionista",
+            "comment": "Love your outfit!"
+          },
+          {
+            "user": "StyleGuru",
+            "comment": "Where did you get that dress?"
+          }
+        ]
+      },
+      {
+        "name": "Daniel Wilson",
+        "imgUrl": "https://picsum.photos/id/1025/500/300",
+        "hashTags": ["#pets", "#dogs", "#cute"],
+        "likes": 180,
+        "comments": [
+          {
+            "user": "DogLover",
+            "comment": "So adorable! 🐶"
+          },
+          {
+            "user": "PetFan",
+            "comment": "What's their name?"
+          }
+        ]
+      },
+      {
+        "name": "Olivia Taylor",
+        "imgUrl": "https://picsum.photos/id/103/500/300",
+        "hashTags": ["#travel", "#wanderlust", "#vacation"],
+        "likes": 220,
+        "comments": [
+          {
+            "user": "TravelBug",
+            "comment": "Dream destination!"
+          },
+          {
+            "user": "GlobeTrotter",
+            "comment": "How was the weather?"
+          }
+        ]
+      },
+      {
+        "name": "James Anderson",
+        "imgUrl": "https://picsum.photos/id/104/500/300",
+        "hashTags": ["#cars", "#luxury", "#speed"],
+        "likes": 170,
+        "comments": [
+          {
+            "user": "CarEnthusiast",
+            "comment": "What a beauty!"
+          },
+          {
+            "user": "SpeedDemon",
+            "comment": "How fast does it go?"
+          }
+        ]
+      },
+      {
+        "name": "Emma White",
+        "imgUrl": "https://picsum.photos/id/105/500/300",
+        "hashTags": ["#flowers", "#garden", "#nature"],
+        "likes": 90,
+        "comments": [
+          {
+            "user": "NatureLover",
+            "comment": "So colorful!"
+          },
+          {
+            "user": "Gardener",
+            "comment": "What type of flowers are these?"
+          }
+        ]
+      },
+      {
+        "name": "Liam Brown",
+        "imgUrl": "https://picsum.photos/id/106/500/300",
+        "hashTags": ["#architecture", "#design", "#urban"],
+        "likes": 130,
+        "comments": [
+          {
+            "user": "ArchitectFan",
+            "comment": "Amazing structure!"
+          },
+          {
+            "user": "CityLover",
+            "comment": "Where is this located?"
+          }
+        ]
+      },
+      {
+        "name": "Ava Garcia",
+        "imgUrl": "https://picsum.photos/id/107/500/300",
+        "hashTags": ["#beach", "#ocean", "#summer"],
+        "likes": 280,
+        "comments": [
+          {
+            "user": "BeachBum",
+            "comment": "I wish I was there!"
+          },
+          {
+            "user": "SunLover",
+            "comment": "Perfect weather!"
+          }
+        ]
+      },
+      {
+        "name": "Noah Martinez",
+        "imgUrl": "https://picsum.photos/id/108/500/300",
+        "hashTags": ["#music", "#concert", "#live"],
+        "likes": 160,
+        "comments": [
+          {
+            "user": "MusicFan",
+            "comment": "Looks like an amazing show!"
+          },
+          {
+            "user": "ConcertGoer",
+            "comment": "Who was performing?"
+          }
+        ]
+      },
+      {
+        "name": "Mia Rodriguez",
+        "imgUrl": "https://picsum.photos/id/109/500/300",
+        "hashTags": ["#books", "#reading", "#literature"],
+        "likes": 75,
+        "comments": [
+          {
+            "user": "BookWorm",
+            "comment": "What are you reading?"
+          },
+          {
+            "user": "LitLover",
+            "comment": "Love this cozy vibe!"
+          }
+        ]
+      },
+      {
+        "name": "Lucas Lee",
+        "imgUrl": "https://picsum.photos/id/110/500/300",
+        "hashTags": ["#tech", "#innovation", "#gadgets"],
+        "likes": 210,
+        "comments": [
+          {
+            "user": "TechGeek",
+            "comment": "What's the specs?"
+          },
+          {
+            "user": "GadgetFan",
+            "comment": "This looks futuristic!"
+          }
+        ]
+      }
+    ]
+  }
